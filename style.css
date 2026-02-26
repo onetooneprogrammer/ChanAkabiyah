@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: red url('roses-hearts.png') repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 10%;
+}
+
+h1 {
+  font-size: 3.5em;
+  color: #fff;
+  text-shadow: 2px 2px 5px #660033;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin-top: 20px;
+  color: #ffccff;
+  text-shadow: 1px 1px 4px #330000;
+}
+
+button {
+  background-color: #ff3366;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px #fff;
+}
+
+button:hover {
+  background-color: #cc0033;
+}
+
+.cracker {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: gold;
+  border-radius: 50%;
+  animation: burst 1s ease-out forwards;
+}
+
+@keyframes burst {
+  from { transform: scale(1); opacity: 1; }
+  to { transform: scale(3); opacity: 0; }
+}
